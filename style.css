@@ -43,8 +43,8 @@ body {
 }
 .hero-video {
   position: relative;
-  height: 35vh;        /* ровно 2/3 экрана */
-  min-height: 320px;
+  height: 65vh;        /* ~2/3 экрана */
+  min-height: 480px;  /* чтобы выглядело солидно */
   overflow: hidden;
 }
 

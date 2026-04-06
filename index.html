@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background: #0e0e0e;
     color: #eaeaea;
 }
@@ -28,7 +28,7 @@ header {
     text-align: center;
     background:
         linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
-        url('https://source.unsplash.com/1600x900/?coffee-plantation') center/cover;
+        url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover;
 }
 
 h1 {
@@ -42,6 +42,10 @@ h2 {
     margin-bottom: 40px;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+h3 {
+    margin-top: 0;
 }
 
 p {
@@ -77,12 +81,14 @@ img {
     height: 220px;
     object-fit: cover;
     margin-bottom: 20px;
+    filter: brightness(0.85) contrast(1.1);
 }
 
 ul {
     max-width: 700px;
     margin: auto;
     color: #bfbfbf;
+    line-height: 1.8;
 }
 
 .section {
@@ -131,8 +137,8 @@ ul {
     <h2>О компании</h2>
     <p class="center">
         Мы поставляем зелёный кофе из Вьетнама в Казахстан и страны СНГ.
-        Работаем напрямую с производителями и обеспечиваем стабильное качество
-        и прозрачные условия поставок.
+        Работаем напрямую с производителями и обеспечиваем стабильное качество,
+        прозрачные условия и надёжные поставки.
     </p>
 </div>
 
@@ -141,7 +147,7 @@ ul {
     <div class="grid">
 
         <div class="card">
-            <img src="https://source.unsplash.com/800x600/?green-coffee-beans" alt="">
+            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e" alt="">
             <h3>Arabica Washed</h3>
             <p>
                 Влажность: 12.5%<br>
@@ -151,7 +157,7 @@ ul {
         </div>
 
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e" alt="">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="">
             <h3>Robusta Washed / Natural</h3>
             <p>
                 Влажность: 12.5%<br>
@@ -161,6 +167,22 @@ ul {
         </div>
 
     </div>
+</div>
+
+<div class="container section">
+    <h2>Спецификация</h2>
+    <ul>
+        <li>Влажность: 12.5%</li>
+        <li>Broken beans: 0.3%</li>
+        <li>Посторонние примеси: 0.1%</li>
+    </ul>
+</div>
+
+<div class="container section">
+    <h2>Упаковка</h2>
+    <p class="center">
+        Мешки по 60 кг, подходят для международной транспортировки.
+    </p>
 </div>
 
 <div class="container section">
@@ -214,4 +236,5 @@ ul {
 </div>
 
 </body>
+</html>
 </html>

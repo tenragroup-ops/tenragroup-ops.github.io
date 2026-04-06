@@ -41,11 +41,6 @@ h2 {
     text-align: center;
     margin-bottom: 40px;
     font-weight: 300;
-    letter-spacing: 1px;
-}
-
-h3 {
-    margin-top: 0;
 }
 
 p {
@@ -61,15 +56,14 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
 .card {
     border: 1px solid #222;
-    padding: 30px;
+    padding: 25px;
     background: #151515;
-    transition: 0.3s;
 }
 
 .card:hover {
@@ -80,15 +74,8 @@ img {
     width: 100%;
     height: 220px;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     filter: brightness(0.85) contrast(1.1);
-}
-
-ul {
-    max-width: 700px;
-    margin: auto;
-    color: #bfbfbf;
-    line-height: 1.8;
 }
 
 .section {
@@ -102,7 +89,6 @@ ul {
     border: 1px solid #c2a36b;
     color: #c2a36b;
     text-decoration: none;
-    transition: 0.3s;
 }
 
 .btn:hover {
@@ -136,9 +122,8 @@ ul {
 <div class="container section">
     <h2>О компании</h2>
     <p class="center">
-        Мы поставляем зелёный кофе из Вьетнама в Казахстан и страны СНГ.
-        Работаем напрямую с производителями и обеспечиваем стабильное качество,
-        прозрачные условия и надёжные поставки.
+        Поставки зелёного кофе из Вьетнама в Казахстан и СНГ.
+        Прямые контракты с производителями и контроль качества.
     </p>
 </div>
 
@@ -147,59 +132,59 @@ ul {
     <div class="grid">
 
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e" alt="">
+            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e">
             <h3>Arabica Washed</h3>
-            <p>
-                Влажность: 12.5%<br>
-                Broken beans: 0.3%<br>
-                Impurities: 0.1%
-            </p>
+            <p>Влажность: 12.5%<br>Broken: 0.3%<br>Impurities: 0.1%</p>
         </div>
 
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
             <h3>Robusta Washed / Natural</h3>
-            <p>
-                Влажность: 12.5%<br>
-                Broken beans: 0.3%<br>
-                Impurities: 0.1%
-            </p>
+            <p>Влажность: 12.5%<br>Broken: 0.3%<br>Impurities: 0.1%</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- 🔥 НОВЫЙ БЛОК С ФОТО -->
+
+<div class="container section">
+    <h2>Фото продукции и отгрузки</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+            <p>Мешки с зелёным кофе (экспортная упаковка)</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0">
+            <p>Зелёные кофейные зёрна (Arabica)</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085">
+            <p>Зелёные кофейные зёрна (Robusta)</p>
         </div>
 
     </div>
 </div>
 
 <div class="container section">
-    <h2>Спецификация</h2>
-    <ul>
-        <li>Влажность: 12.5%</li>
-        <li>Broken beans: 0.3%</li>
-        <li>Посторонние примеси: 0.1%</li>
-    </ul>
-</div>
-
-<div class="container section">
-    <h2>Упаковка</h2>
-    <p class="center">
-        Мешки по 60 кг, подходят для международной транспортировки.
-    </p>
-</div>
-
-<div class="container section">
     <h2>Логистика</h2>
     <p class="center">
-        Условия: FOB / DAP<br>
-        Порт: Cat Lai, Вьетнам<br>
-        Срок доставки: 28–40 дней<br>
-        Минимальный объём: 1 контейнер
+        FOB / DAP<br>
+        Порт: Cat Lai<br>
+        28–40 дней<br>
+        Минимум: 1 контейнер
     </p>
 </div>
 
 <div class="container section">
     <h2>Контроль качества</h2>
     <p class="center">
-        Полный контроль качества перед отгрузкой.
-        Вся продукция проверяется на соответствие спецификациям.
+        Полная проверка перед отгрузкой
     </p>
 </div>
 
@@ -212,29 +197,11 @@ ul {
     </ul>
 </div>
 
-<div class="container section">
-    <h2>Условия оплаты</h2>
-    <p class="center">T/T или LC</p>
-</div>
-
-<div class="container section">
-    <h2>Почему мы</h2>
-    <ul>
-        <li>Прямые поставки из Вьетнама</li>
-        <li>Стабильное качество</li>
-        <li>Прозрачные условия</li>
-        <li>Быстрая коммуникация</li>
-    </ul>
-</div>
-
 <div class="contacts">
-    <h2>Связаться с нами</h2>
+    <h2>Связаться</h2>
     <p>WhatsApp: +7 700 118 53 25</p>
-    <p>Email: info@tenragroup.kz</p>
-
-    <a href="https://wa.me/77001185325" class="btn">Написать в WhatsApp</a>
+    <a href="https://wa.me/77001185325" class="btn">Написать</a>
 </div>
 
 </body>
-</html>
 </html>
